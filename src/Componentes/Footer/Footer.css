@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.footer {
+  background-color: #412a56;
+  display: inline;
+  padding: 0;
+}
+
+.contenedor {
+  align-items: center;
+  background-color: var(--artyClick-crimson);
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  color: #412a56;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.FundaSoft {
+  display: flex;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.politicas {
+  display: flex;
+  justify-content: space-around;
+  flex: 2;
+}
+
+.text-wrapper-2 {
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+@media (max-width: 600px) {
+
+  .footer {
+    align-items: flex-start;
+    text-align: start;
+    gap: 24px;
+  }
+
+  .politicas,
+  .footer,
+  .FundaSoft,
+  .bienestar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.bienestar {
+  align-items: flex-start;
+  display: inline-flex;
+  padding: 20px;
+}
+
+.logodesarrollo {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+  position: relative;
+}
+
+.logo-blanco {
+  height: 255px;
+  object-fit: cover;
+}
+
+.impacto-de-nuestras {
+  color: #ffffff;
+  font-family: "Karla", Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 416px;
+}
+
+.cursos {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
+  position: relative;
+}
+
+.text-cursos-contactanos {
+  color: #ffffff;
+  font-family: "Karla", Helvetica;
+  font-size: 40px;
+  height: 75px;
+  font-weight: 780;
+}
+
+.text-digital {
+  color: #ffffff;
+  font-family: "Karla", Helvetica;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.Marketing-digital {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  position: relative;
+}
+
+.text-instalacion {
+  color: #ffffff;
+  font-family: "Karla", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  height: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-decoration: underline;
+  width: 417px;
+}
+
+.direcci-n-AV-a {
+  color: #ffffff;
+  font-family: "Karla", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  height: 65px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 300px;
+}
+
+.span {
+  font-weight: 800;
+}
+
+.email-fundasoftmiss {
+  color: #ffffff;
+  font-family: "Karla", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 353px;
+}
+
+.div-2 {
+  color: #ffffff;
+  font-family: "Karla", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 417px;
+}
+
+.img {
+  flex: 0 0 auto;
+  position: relative;
+}

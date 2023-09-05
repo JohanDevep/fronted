@@ -1,0 +1,64 @@
+.corporativos {
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.imagen-corporativo
+{
+    width: 310px;
+    height: 250px;
+}
+.texto-corporativo{
+    top: 52%;
+    padding: 3px;
+    font-size: 23px;
+    width: 320px;
+    position: absolute;
+}
+.general-corpo{
+    padding: 24px;
+    position: relative;
+}
+
+.corporativoswrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-corporativos {
+    padding: 24px;
+    background-color: #ffffff;
+}
+
+.nuestras-corporativos {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media (max-width: 600px) {
+
+    .corporativos {
+        align-items: flex-start;
+        text-align: start;
+        gap: 24px;
+    }
+
+    .corporativos,
+    .corporativoswrapper,
+    .titulo-corporativos,
+    .nuestras-corporativos {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

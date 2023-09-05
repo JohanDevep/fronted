@@ -1,0 +1,42 @@
+.somos {
+    padding: 24px;
+    background-color: #412a56;
+}
+
+.quienes-somos {
+    color: #f804b3;
+    font-family: monospace;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.imagen {
+    float: left;
+    object-fit: contain;
+    height: 556px;
+}
+
+.somos-creadas {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+
+    .somos {
+        align-items: flex-start;
+        text-align: start;
+        gap: 24px;
+    }
+
+    .somos,
+    .quienes-somos,
+    .somos-creadas {
+
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

@@ -1,0 +1,80 @@
+.mision {
+    padding: 24px;
+    background-color: #412a56;
+}
+
+.allura-feedback {
+    height: 445px;
+    width: 480px;
+    object-fit: contain;
+    float: right;
+}
+
+.text-mision {
+    color: #ff007d;
+    font-family: "Arial-Bold", Helvetica;
+    font-size: 60.4px;
+    font-weight: 700;
+}
+
+.nuestra-mision {
+    color: #ffffff;
+    font-family: "Arial-Bold", Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: left
+}
+
+@media (max-width: 600px) {
+
+    .mision,
+    .vision {
+        align-items: flex-start;
+        text-align: start;
+        gap: 24px;
+    }
+
+    .allura-feedback {
+        width: 500px;
+        height: 300px;
+        object-fit: contain;
+    }
+
+    .mision,
+    .nuestra-mision,
+    .text-mision,
+    .vision {
+
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.vision {
+    padding: 24px;
+}
+
+.vision-imagen {
+    height: 335px;
+    width: 650px;
+    object-fit: contain;
+    float: left;
+}
+
+.text-vision {
+    color: #ff007d;
+    font-family: "Arial-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.organizacion {
+    color: #412a56;
+    font-family: "Arial-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left
+}

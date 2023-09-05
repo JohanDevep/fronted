@@ -1,0 +1,87 @@
+.container-intructores {
+    background-image: url(../../../../images/Instructores.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 97px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.nuestros-instructores {
+    color: #ffffff;
+    padding: 34px;
+    font-family: "Inter", Helvetica;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.nombre {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 45px;
+    font-weight: 800;
+    height: 10px;
+    text-align: center;
+}
+
+.ingeniero {
+    color: #9d9d9d;
+    font-family: "Inter", Helvetica;
+    text-align: center;
+}
+
+.descripcion {
+    color: #c1c1c1;
+    font-family: "Inter", Helvetica;
+    text-align: center;
+}
+
+.texto-descubre {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.personas-fondo {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #412a56;
+}
+
+.tamaño-imagen-personas {
+    width: 320px;
+    height: 275px;
+}
+
+.wrapperpersonas {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 40px;
+}
+
+@media (max-width: 600px) {
+
+    .container-intructores {
+        align-items: flex-start;
+        text-align: start;
+        gap: 24px;
+    }
+
+    .texto-descubre {
+        width: 355px;
+    }
+
+    .container-intructores,
+    .nuestros-instructores,
+    .wrapperpersonas,
+    .texto-descubre {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

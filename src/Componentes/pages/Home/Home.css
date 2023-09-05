@@ -1,0 +1,49 @@
+/* Inicio */
+.inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-image: url(../../../../images/Imagen-Inicio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 24px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.promovemos {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        align-items: flex-start;
+        text-align: start;
+        gap: 24px;
+    }
+
+    .logo-inicio {
+        width: 400px;
+        height: 200px;
+        object-fit: contain;
+    }
+
+    .promovemos,
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

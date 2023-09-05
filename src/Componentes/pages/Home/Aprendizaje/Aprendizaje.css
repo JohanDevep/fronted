@@ -1,0 +1,49 @@
+.aprendizaje {
+    padding: 24px;
+    background-color: #412a56;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.nuestro-aprendizaje {
+    color: #f8f8f8;
+    font-family: "Inter", Helvetica;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.tamaño-imagen {
+    width: 260px;
+    height: 180px;
+
+}
+
+.aprendizajewapper {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+}
+
+.imagen-linea {
+    height: 70px;
+}
+
+@media (max-width: 600px) {
+
+    .aprendizaje {
+        align-items: flex-start;
+        text-align: start;
+        gap: 24px;
+    }
+
+    .aprendizaje,
+    .aprendizajewapper,
+    .nuestro-aprendizaje {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

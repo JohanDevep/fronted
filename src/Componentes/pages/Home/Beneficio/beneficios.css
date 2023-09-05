@@ -1,0 +1,67 @@
+.beneficios {
+    padding: 24px;
+    background-color: #412a56;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.titulo-beneficios {
+    color: #ffffff;
+    font-family: cursive;
+    font-size: 55px;
+    text-align: left;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.circulo-logo {
+    height: 45px;
+    left: 0;
+}
+.texto-beneficio {
+    color: #ffffff;
+    font-family: "Arial-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    width: 380px;
+    text-align: left;
+}
+
+.beneficio-general {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.tres-circulos{
+    padding: 24px;
+}
+.cinco-circulos{
+    padding: 24px;
+}
+.beneficio-general-todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 600px) {
+
+    .beneficios {
+        align-items: flex-start;
+        text-align: start;
+        gap: 24px;
+    }
+
+    .beneficios,
+    .beneficio-general,
+    .texto-beneficio,
+    .beneficio-general-todo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

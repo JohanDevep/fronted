@@ -1,0 +1,118 @@
+.container-contacto {
+  background-color: #533e55b2;
+  background-image: url(../../../../images//contacteno.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 24px;
+}
+.texto-contactenos {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-align: center;
+}
+.general-contacto{
+  padding: 55px;
+  background-color: #412a56;
+}
+.escribanos-contacto{
+  padding: 24px;
+  background-color: #faf9fb;
+  height: 580px;
+}
+.texto-pongase{
+  color: #000000;
+  font-family: "Karla", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+}
+.texto-mensaje-ahora {
+  color: #000000;
+  font-family: "Karla", Helvetica;
+  font-size: 55px;
+  font-weight: 800;
+  width: 580px;
+}
+.para-nosotros {
+  color: #000000;
+  font-family: "Karla", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0;
+  width: 400px;
+}
+
+.boton-mensaje{
+  padding: 24px;
+  background-color: #9A1B76;
+  color: #ffffff;
+  font-family: "Karla", Helvetica;
+  font-size: 35px;
+  font-weight: 750;
+  border-radius: 55px;
+}
+
+.contacto-cell {
+  height: 400px;
+  left: 559px;
+  position: absolute;
+  top: 556px;
+  width: 255px;
+}
+
+.texto-general-titulos {
+  color: #000000;
+  font-family: "Karla", Helvetica;
+  font-size: 35px;
+  font-weight: 800;
+  left: 75px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 6px;
+  white-space: nowrap;
+}
+.iframe-ubi{
+  width: 1185px; 
+  height: 550px;
+
+}
+.texto-interno-general {
+  color: #000000;
+  font-family: "Karla", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0;
+  width: 285px;
+  line-height: normal;
+}
+.Cuadro-textos {
+  align-items: center;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  padding: 14px 16px;
+  position: relative;
+}
+.general-textos {
+  height: 60px;
+  margin-right: -2px;
+  position: relative;
+  width: 397px;
+}
+.visitanos-llamanos {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  left: 835px;
+  position: absolute;
+  top: 437px;
+}

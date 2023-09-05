@@ -1,0 +1,65 @@
+.proposito {
+    padding-top: 24px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.aquellas-personas {
+    color: #f804b3;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.tamaño-imagen {
+    width: 300px;
+    height: 200px;
+
+}
+
+.titulo-numeros {
+    color: #ffbd69;
+    font-family: "Leckerli One", Helvetica;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;
+
+}
+
+.proposito-apoyar {
+    padding-top: 24px;
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.propositowapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.imagen-linea {
+    height: 70px;
+}
+
+@media (max-width: 600px) {
+
+    .proposito {
+        align-items: flex-start;
+        text-align: start;
+        gap: 24px;
+    }
+
+    .proposito,
+    .propositowapper,
+    .proposito-apoyar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
